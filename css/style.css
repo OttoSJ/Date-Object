@@ -1,0 +1,88 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 10px;
+  background-color: black;
+}
+
+#vp-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 15px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+#footer {
+  width: 100vw;
+  background-color: rgb(182, 223, 182);
+}
+
+#footer-msg {
+  margin-left: 15px;
+}
+
+/* Box around entire logo and messege ///////////////////////////////*/
+#logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  /* align-content: stretch; */
+  width: 13.75rem;
+  height: 15rem;
+  border: 1px solid white;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+#logo-design1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+  font-style: initial;
+  font-size: 4rem;
+  color: white;
+}
+
+#logo-design2 {
+  position: absolute;
+  font-size: 4rem;
+  color: white;
+  right: 75.4rem;
+  top: 22rem;
+}
+
+#logo-text {
+  font-size: 130%;
+  color: white;
+}
+
+#logo-msg {
+  position: relative;
+  font-style: italic;
+  align-self: flex-end;
+  text-align: center;
+  width: 13.8rem;
+  height: 10rem;
+  background-color: rgb(240, 156, 83);
+  top: 1rem;
+  right: -0rem;
+}
